@@ -4,11 +4,11 @@
 
 using namespace std;
 
-bool myGreaterComparator(int a, int b) { // return true when swap is not required
+bool myGreaterComparator(int a, int b) { // return true when swap is not required , This helps us to print a vector in reverse order
 	return a > b;
 }
 
-bool myLesserComparator(int a, int b) { // return true when swap is not required
+bool myLesserComparator(int a, int b) { // return true when swap is not required , Thsi helps us to print a vector in sorted order
 	return a < b;
 }
 
