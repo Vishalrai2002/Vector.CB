@@ -49,7 +49,15 @@ int main() {
 
 	// range constructor
 	vector<int> v4 = {1, 2, 3, 4, 5};
-	vector<int> v5(v4.begin()+1, v4.end());6
+	vector<int> v5(v4.begin()+1, v4.end());
+
+
+	for (int i=0;i<v5.size();i++)
+	{
+		cout<<v5[i]<<" ";
+	}
+
+    
 
 	return 0;
 }
